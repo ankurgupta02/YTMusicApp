@@ -178,8 +178,8 @@ class PlayerPage:
         raise TimeoutError("Ad(s) did not finish within the timeout.")
 
 
-
-
+    def thanks(self):
+        print("Thanks")
 
 
 
@@ -192,3 +192,6 @@ What readyState >= 2 Means:
 3: Can play, buffering may occur.
 4: Fully buffered, can play without stopping.
 '''
+
+
+
