@@ -8,6 +8,7 @@ from utilities.read_properties import ReadConfig
 
 
 class Test_Home_Page_Signout:
+    logger = LogGen.loggen()
 
     @pytest.fixture(autouse=True)
     def pageObjects(self, setup):
@@ -15,7 +16,6 @@ class Test_Home_Page_Signout:
         self.driver.get(ReadConfig.getApplicationUrl())
         self.hp = Home_Page_Shelf(self.driver)
         self.ch = Common_Helpers(self.driver)
-        self.logger = LogGen.loggen()
 
     def test_signindialog_with_savetoplaylist_option(self):
         self.logger.info(

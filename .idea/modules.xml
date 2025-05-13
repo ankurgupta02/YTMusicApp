@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/YTMusicApp.iml" filepath="$PROJECT_DIR$/.idea/YTMusicApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/YTMusicWeb.iml" filepath="$PROJECT_DIR$/.idea/YTMusicWeb.iml" />
     </modules>
   </component>
 </project>

@@ -8,12 +8,12 @@ from pages.elements import Elements
 class Test_Login_Page:
     username = ReadConfig.getUsername()
     password = ReadConfig.getPassword()
+    logger = LogGen.loggen()
 
     @pytest.fixture(autouse=True)
     def initialize_pageObject(self, setup):
         self.driver = setup
         self.lp = LoginPage(self.driver)
-        self.logger = LogGen.loggen()
 
     def testHomePageTitle(self):
         self.logger.info("*******************Test_001_Login************************")

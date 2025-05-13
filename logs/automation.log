@@ -1,1 +1,19 @@
-2025-04-25 19:06:18,200 - INFO - ****test_play_video test case begin****
+2025-05-12 18:36:58,177 - INFO - patching driver executable C:\Users\ankur\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-05-12 18:37:01,205 - INFO - **** test_play_video test case begin ****
+2025-05-12 18:37:14,088 - INFO - **** Video playback is successful. ****
+
+2025-05-12 18:37:16,986 - INFO - **** test_pause_video test case begin ****
+2025-05-12 18:37:29,902 - INFO - **** Video paused is successful. ****
+
+2025-05-12 18:37:32,933 - INFO - **** test_player_play_button test case begin ****
+2025-05-12 18:37:46,401 - INFO - **** Video playback is successful after clicking play button. ****
+
+2025-05-12 18:37:50,300 - INFO - **** test_player_pause_button test case begin ****
+2025-05-12 18:38:04,149 - INFO - **** Video paused is successful after clicking pause button. ****
+
+2025-05-12 18:38:07,211 - INFO - **** test_player_next_button test case begin ****
+2025-05-12 18:38:38,371 - INFO - **** Next video playback is successful. ****
+
+2025-05-12 18:38:42,199 - INFO - **** test_player_previous_button test case begin ****
+2025-05-12 18:39:10,741 - INFO - **** Previous video playback is successful. ****
+
